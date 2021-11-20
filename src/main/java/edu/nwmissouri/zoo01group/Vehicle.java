@@ -34,5 +34,28 @@ public abstract class Vehicle {
         double maxSpeed = speed * 100;
         return maxSpeed;
     }
+  public static void Casting()
+   {
+       double d=9.8;
+       int i=(int) d;
+       System.out.println("Cating double to int "+i);
+   }
+  public static void Exception()
+   {
+       try
+       {
+           int[] s={1,2,3};
+          System.out.println("array"+s[10]);   
+       }catch(Exception e)
+       {
+        System.out.println("Exception were added "+e);   
+       }
+   }
+    public static void main(String[] args){
+        Exception();
+         Casting();
+    }
+        
+    }
 
-}
+
